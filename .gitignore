@@ -427,3 +427,17 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ───── DirectX game specific ─────
+
+# Compiled shaders (generated from .hlsl)
+*.cso
+
+# Large binary game assets (keep repo small)
+*.sdkmesh
+*.sdkmesh_anim
+*.dds
+*.tga
+*.wav
+*.mp3
+*.ogg
