@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>c6a676e5-a95f-4695-aea3-d4727ef5d8e4</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>98719191-a4f9-4181-ab0a-c84897400246</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{60e8d59e-edcb-406b-83d6-9e9642d3096c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib">
+      <UniqueIdentifier>{78340b03-1913-4711-bca8-e998b42d4396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Utilities">
+      <UniqueIdentifier>{c6becba7-1f61-4838-80ee-4875f37f3b21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UserResources.h" />
+    <ClInclude Include="Scene\TestScene.h" />
+    <ClInclude Include="Scene\SceneManager.h" />
+    <ClInclude Include="Objects\FpsCamera.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\FirstPersonPlayer.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Utilities\DebugDraw.h">
+      <Filter>MyLib\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Utilities\DebugFont.h">
+      <Filter>MyLib\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Utilities\GridFloor.h">
+      <Filter>MyLib\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Utilities\Singleton.h">
+      <Filter>MyLib\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\FpsPlayerSetting.h" />
+    <ClInclude Include="Objects\FpsGunSetting.h" />
+    <ClInclude Include="Objects\FpsGun.h" />
+    <ClInclude Include="Scene\TitleScene.h" />
+    <ClInclude Include="Scene\LoadScreen.h" />
+    <ClInclude Include="Objects\Scope.h" />
+    <ClInclude Include="Objects\Bullet.h" />
+    <ClInclude Include="Objects\Deer.h" />
+    <ClInclude Include="MyLib\Utilities\ResourcesManager.h" />
+    <ClInclude Include="MyLib\Utilities\Animation.h" />
+    <ClInclude Include="MyLib\Utilities\FloorPrimitive.h" />
+    <ClInclude Include="MyLib\Utilities\Ray.h" />
+    <ClInclude Include="MyLib\Utilities\RayCastSystem.h" />
+    <ClInclude Include="MyLib\Utilities\IRaycastTarget.h" />
+    <ClInclude Include="Objects\Magazine.h" />
+    <ClInclude Include="Objects\UserInterface.h" />
+    <ClInclude Include="MyLib\Utilities\BinaryFile.h" />
+    <ClInclude Include="ReadData.h" />
+    <ClInclude Include="Collision\Collision.h" />
+    <ClInclude Include="Stage\Stage.h" />
+    <ClInclude Include="Scene\ResultScene.h" />
+    <ClInclude Include="Objects\BulletCamera.h" />
+    <ClInclude Include="Objects\CameraManager.h" />
+    <ClInclude Include="Objects\Mission.h" />
+    <ClInclude Include="Objects\Boss.h" />
+    <ClInclude Include="Objects\Rabbit.h" />
+    <ClInclude Include="Stage\Levels.h" />
+    <ClInclude Include="MyLib\PicoJSON\PicoJSONHeaderList.h" />
+    <ClInclude Include="MyLib\PicoJSON\Include\PicoJSON\picojson.h" />
+    <ClInclude Include="MyLib\PicoJSON\Include\picojson.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TestScene.cpp" />
+    <ClCompile Include="Objects\FpsCamera.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\FirstPersonPlayer.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Utilities\DebugDraw.cpp">
+      <Filter>MyLib\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Utilities\DebugFont.cpp">
+      <Filter>MyLib\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Utilities\GridFloor.cpp">
+      <Filter>MyLib\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\FpsGun.cpp" />
+    <ClCompile Include="Scene\TitleScene.cpp" />
+    <ClCompile Include="Scene\LoadScreen.cpp" />
+    <ClCompile Include="Objects\Scope.cpp" />
+    <ClCompile Include="Objects\Bullet.cpp" />
+    <ClCompile Include="MyLib\Utilities\ResourcesManager.cpp" />
+    <ClCompile Include="MyLib\Utilities\Animation.cpp" />
+    <ClCompile Include="MyLib\Utilities\FloorPrimitive.cpp" />
+    <ClCompile Include="MyLib\Utilities\RayCastSystem.cpp" />
+    <ClCompile Include="Objects\Magazine.cpp" />
+    <ClCompile Include="Objects\UserInterface.cpp" />
+    <ClCompile Include="MyLib\Utilities\BinaryFile.cpp" />
+    <ClCompile Include="Objects\Deer.cpp" />
+    <ClCompile Include="Collision\Collsion.cpp" />
+    <ClCompile Include="Stage\Stage.cpp" />
+    <ClCompile Include="Scene\ResultScene.cpp" />
+    <ClCompile Include="Objects\CameraManager.cpp" />
+    <ClCompile Include="Objects\Mission.cpp" />
+    <ClCompile Include="Objects\Boss.cpp" />
+    <ClCompile Include="Objects\Rabbit.cpp" />
+    <ClCompile Include="Stage\Levels.cpp" />
+    <ClCompile Include="Objects\BulletCamera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Big.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\blood_splat.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\bullet.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\crossHair.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Deer_Body_Alb.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Deer_Eye_Alb.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Effect_3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\EuropeanRabbit_BaseColor.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ground.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Hover.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\LoadingBar.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\LoadingBar1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\LoadingBar2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\LoadingBarFill.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\LoadScreen2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\LoadTexture.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\mission panel.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\MissionFailed.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\muzzleflash.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\number.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ResultScene.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\sabrecat.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\sabrecat_n.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Scope2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Scope3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\scopeGUI.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Skydome.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\snipermat_color.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\snipermat_normal.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Stages.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\T3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Thermal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\UI.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Shaders\UI.hlsli" />
+    <None Include="Resources\Models\Stag.sdkmesh" />
+    <None Include="MyLib\PicoJSON\PicoJSON.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\UIGS.hlsl" />
+    <FxCompile Include="Resources\Shaders\UIPS.hlsl" />
+    <FxCompile Include="Resources\Shaders\UIVS.hlsl" />
+    <FxCompile Include="Resources\Shaders\PS_Gun.hlsl" />
+    <FxCompile Include="Resources\Shaders\ThermalScope_PS.hlsl" />
+    <FxCompile Include="Resources\Shaders\TharmalScope_VS.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\Birds_loop.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Cicadas_loop.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Reload.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Sniper.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\Wind_Forest_loop.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
