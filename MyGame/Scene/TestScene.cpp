@@ -226,6 +226,23 @@ namespace MyLib
             deer->Update(elapsedTime);
             deer->UpdateAnimation(elapsedTime);
         }
+          // ミッションパネルの目標トラッカーを更新
+        {
+            int deerTotal = (int)m_deers.size();
+            int deerLeft = 0;
+            for (auto& d : m_deers)
+                if (d->IsAlive()) deerLeft++;
+
+            int rabbitTotal = (int)m_rabbits.size();
+            int rabbitLeft = 0;
+            for (auto& r : m_rabbits)
+                if (r->IsAlive()) rabbitLeft++;
+
+            bool hasBoss = m_levels.HasBoss() && m_bossSpawned;
+            bool bossAlive = (m_boss && m_boss->IsAlive());
+
+            m_mission->SetObjectiveCounts(deerLeft, deerTotal, rabbitLeft, rabbitTotal, hasBoss, bossAlive);
+        }
 
         // ウサギの更新 + アニメーション
         for (auto& rabbit : m_rabbits)
